@@ -18,3 +18,28 @@ $$
 $$
 
 do inline equations like $$\int_1^\infty \frac{1}{x^2} dx = 1$$ work?
+
+and here are some code snippets:
+
+``` ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/ Source Article
+class Fixnum
+  def prime?
+    ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+```
+
+{% codeblock Coffeescript Tricks lang:coffeescript start:51 mark:51,54-55 %}
+# Given an alphabet:
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+# Iterate over part of the alphabet:
+console.log letter for letter in alphabet[4..8]
+{% endcodeblock %}
+
+
+does this produce a list like it's supposed to?
+
+- item 1
+- item 2
+- item 3

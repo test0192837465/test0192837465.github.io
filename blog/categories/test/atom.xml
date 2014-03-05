@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Test | My Octopress Blog]]></title>
+  <title><![CDATA[Category: test | My Octopress Blog]]></title>
   <link href="http://test0192837465.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://test0192837465.github.io/"/>
-  <updated>2014-03-04T21:14:58-06:00</updated>
+  <updated>2014-03-04T21:26:34-06:00</updated>
   <id>http://test0192837465.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Title]]></title>
+    <title type="html"><![CDATA[title]]></title>
     <link href="http://test0192837465.github.io/blog/2014/03/04/title/"/>
     <updated>2014-03-04T21:00:20-06:00</updated>
     <id>http://test0192837465.github.io/blog/2014/03/04/title</id>

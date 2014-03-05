@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | My Octopress Blog]]></title>
   <link href="http://test0192837465.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://test0192837465.github.io/"/>
-  <updated>2014-03-04T22:27:20-06:00</updated>
+  <updated>2014-03-05T01:59:36-06:00</updated>
   <id>http://test0192837465.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -30,6 +30,37 @@
  %]]&gt;</script>
 
 <p>do inline equations like <script type="math/tex">\int_1^\infty \frac{1}{x^2} dx = 1</script> work?</p>
+
+<p>and here are some code snippets:</p>
+
+<p><code>ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/ Source Article
+class Fixnum
+  def prime?
+    ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+</code></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Coffeescript Tricks start:51 mark:51,54-55 </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># Given an alphabet:</span>
+</span><span class='line'><span class="nv">alphabet = </span><span class="err">‘</span><span class="nx">abcdefghijklmnopqrstuvwxyz</span><span class="err">’</span><span class="o">&lt;/</span><span class="nx">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">h1</span> <span class="nx">id</span><span class="o">=</span><span class="s">&quot;iterate-over-part-of-the-alphabet&quot;</span><span class="o">&gt;</span><span class="nx">Iterate</span> <span class="nx">over</span> <span class="nx">part</span> <span class="k">of</span> <span class="nx">the</span> <span class="nx">alphabet</span><span class="o">:&lt;/</span><span class="nx">h1</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="nx">letter</span> <span class="k">for</span> <span class="nx">letter</span> <span class="k">in</span> <span class="nx">alphabet</span><span class="p">[</span><span class="mi">4</span><span class="p">..</span><span class="mi">8</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>does this produce a list like it’s supposed to?</p>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ul>
 ]]></content>
   </entry>
   

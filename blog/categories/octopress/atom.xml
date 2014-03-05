@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | My Octopress Blog]]></title>
   <link href="http://test0192837465.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://test0192837465.github.io/"/>
-  <updated>2014-03-04T21:47:47-06:00</updated>
+  <updated>2014-03-04T22:27:20-06:00</updated>
   <id>http://test0192837465.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -29,7 +29,7 @@
 \end{align}
  %]]&gt;</script>
 
-<p>do inline equations like <script type="math/tex">\int_0^\infty \frac{1}{x}</script> work?</p>
+<p>do inline equations like <script type="math/tex">\int_1^\infty \frac{1}{x^2} dx = 1</script> work?</p>
 ]]></content>
   </entry>
   

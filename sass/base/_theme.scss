@@ -1,8 +1,8 @@
 $noise-bg: image-url('noise.png') top left !default;
-$img-border: inline-image('dotted-border.png') !default;
+$img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
-$link-color: lighten(#165b94, 3) !default;
+$link-color: lighten(#04819e, 3) !default; //#165b94
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
 $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
@@ -14,7 +14,7 @@ $article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
+$title-color: #ff7f00 !default; //#f2f2f2
 $subtitle-color: #aaa !default;
 
 $text-color: #222 !default;
@@ -22,15 +22,15 @@ $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
 /* Navigation */
-$nav-bg: #ccc !default;
+$nav-bg: #fff !default;
 $nav-bg-front: image-url('noise.png') !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-color: darken($nav-bg, 38) !default;
-$nav-color-hover: darken($nav-color, 25) !default;
+$nav-color: darken($nav-bg, 55) !default;
+$nav-color-hover: darken($nav-color, 35) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
-$nav-border-top: lighten($nav-bg, 15) !default;
-$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-top: darken($nav-bg, 5) !default;
+$nav-border-bottom: darken($nav-bg, 5) !default;
 $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
@@ -45,7 +45,7 @@ $sidebar-border-hover: darken($sidebar-bg, 7) !default;
 $sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
 $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
 
-$footer-color: #888 !default;
+$footer-color: #AAA !default;
 $footer-bg: #ccc !default;
 $footer-bg-front: image-url('noise.png') !default;
 $footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
@@ -60,19 +60,26 @@ $page-border-bottom: darken($footer-bg, 5) !default;
 
 /* Core theme application */
 
-/* from whiterspace */
-.flex-content { max-width: 100%; height: auto; }
-.basic-alignment {
-  &.left { float: left; margin-right: 1.5em; }
-  &.right { float: right; margin-left: 1.5em; }
-  &.center { display:block; margin: 0 auto 1.5em; }
-  &.left, &.right { margin-bottom: .8em; }
+a {
+  @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+}
+aside.sidebar a {
+  @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
+}
+a {
+  @include transition(color .3s);
 }
 
-.text-uppercase {
-    text-transform: uppercase;
+html {
+  background: $page-bg image-url('line-tile.png') top left;
 }
-
-.page-content {
-    margin-bottom: 42px;
+body {
+  > div#main {
+    background: $sidebar-bg $noise-bg;
+    border-bottom: 1px solid $page-border-bottom;
+    > div {
+      background: $main-bg $noise-bg;
+      border-right: 1px solid $sidebar-border;
+    }
+  }
 }

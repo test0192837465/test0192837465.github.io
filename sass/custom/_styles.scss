@@ -1,20 +1,114 @@
-/* nice sticky footer, from http://getbootstrap.com/examples/sticky-footer/ */
-html, body {
-    height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
-}
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+$white: #FFFFFF;
+
+html {
+	background: $white;
 }
 
-/* Set the fixed height of the footer here */
-footer[role=contentinfo] {
-    height: 60px;
+body {
+	font-family: $sans !important;
+	font-size: 1em;
+
+	> header {
+		background: $white;
+		text-align: center;
+	}
+	> nav {
+		a {
+			font-family: $sans;
+			font-size: 0.9em;
+			padding-top: 0.3em;
+			line-height: 1.5em;
+		}
+		li + li {
+			border-left: 0px;
+
+			a {
+				border-left: 0px;
+			}
+		}
+	}
+
+	> div {
+		background: $white;
+		border-bottom: 0px;
+
+		> div {
+			background: $white;
+			border-right-width: 0px;
+		}
+	}
+
+}
+
+article {
+	padding-top: 2em;
+
+	.entry-content {
+		h3 {
+			font-style: italic
+		}
+	}
+
+	ul, ol {
+		margin-left: 2em;
+	}
+
+	header {
+		h1.entry-title {
+			font-family: $heading-font-family;
+			font-weight: 400;
+		}
+	}
+}
+
+#content {
+	div.pagination {
+		background: none repeat scroll 0 0 transparent;
+		margin: 0 10px;  
+		font-size: 0.95em;
+		padding-bottom: 1.5em;
+		margin-top: 4em;
+		position: relative;
+		text-align: center;		
+		border-top: dotted 1px #D1D1D1;
+		border-bottom: dotted 1px #D1D1D1;
+	}
+
+	.blog-index {
+		article {
+			padding-top: 4em;
+
+			header {
+				padding-left: 0;
+  				padding-right: 0;
+			}
+		}
+
+		h1 {
+			a {
+				font-family: $heading-font-family;
+				font-weight: 400;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.hentry {
+		h1.entry-title {
+			font-family: $heading-font-family;
+			font-weight: 400;
+			font-size: 2.2em;
+		}
+	}
+	
+}
+
+aside {
+	display: none;
 }

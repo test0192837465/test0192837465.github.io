@@ -25,7 +25,8 @@ MathJax.Hub.Config({
   <meta name="author" content="Fred Jekyll">
 
   
-  <meta name="description" content="All Posts Another Test by Kenny written Mar 13th, 2014 in This Is Just a Test written Mar 13th, 2014 in Let&#8217;s Make a New Post: Hopefully This &hellip;">
+  <meta name="description" content="All Posts Another Test by Kenny written Mar 13th, 2014 in This Is Just a Test % <![CDATA[ \begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -133,7 +134,15 @@ MathJax.Hub.Config({
   <h2><a href="/blog/2014/03/13/this-is-just-a-test/">This Is Just a Test</a></h2>
   
   <p>
-    
+    <script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+\end{align}
+ %]]></script>
+
 
   </p>
   <span class="meta">

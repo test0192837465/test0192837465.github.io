@@ -25,8 +25,9 @@ MathJax.Hub.Config({
   <meta name="author" content="Fred Jekyll">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="% <![CDATA[ \begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: } & A\circ B = \{xy\mid x\in A \mbox &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -108,7 +109,14 @@ MathJax.Hub.Config({
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+\end{align}
+ %]]></script>
 </div>
 
 

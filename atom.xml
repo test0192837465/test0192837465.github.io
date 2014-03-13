@@ -4,7 +4,11 @@
   <title><![CDATA[procrastination nation]]></title>
   <link href="http://test0192837465.github.io/atom.xml" rel="self"/>
   <link href="http://test0192837465.github.io/"/>
+<<<<<<< HEAD
   <updated>2014-03-13T16:36:56-07:00</updated>
+=======
+  <updated>2014-03-06T02:26:20-06:00</updated>
+>>>>>>> 0cad5bc1ec9b52401e37e605aaae60d2c472370f
   <id>http://test0192837465.github.io/</id>
   <author>
     <name><![CDATA[Fred Jekyll]]></name>
@@ -14,6 +18,7 @@
 
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[This is just a test]]></title>
     <link href="http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test/"/>
     <updated>2014-03-13T16:35:10-07:00</updated>
@@ -26,6 +31,11 @@
     <title type="html"><![CDATA[Let's make a new post: hopefully this works]]></title>
     <link href="http://test0192837465.github.io/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works/"/>
     <updated>2014-03-05T13:34:23-07:00</updated>
+=======
+    <title type="html"><![CDATA[Let's make a new post: hopefully this works]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works/"/>
+    <updated>2014-03-05T14:34:23-06:00</updated>
+>>>>>>> 0cad5bc1ec9b52401e37e605aaae60d2c472370f
     <id>http://test0192837465.github.io/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works</id>
     <content type="html"><![CDATA[
 ]]></content>
@@ -34,7 +44,11 @@
   <entry>
     <title type="html"><![CDATA[title]]></title>
     <link href="http://test0192837465.github.io/blog/2014/03/04/title/"/>
+<<<<<<< HEAD
     <updated>2014-03-04T20:00:20-07:00</updated>
+=======
+    <updated>2014-03-04T21:00:20-06:00</updated>
+>>>>>>> 0cad5bc1ec9b52401e37e605aaae60d2c472370f
     <id>http://test0192837465.github.io/blog/2014/03/04/title</id>
     <content type="html"><![CDATA[<p>blah blah blah</p>
 

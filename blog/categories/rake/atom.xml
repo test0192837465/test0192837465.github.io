@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rake | procrastination nation]]></title>
   <link href="http://test0192837465.github.io/blog/categories/rake/atom.xml" rel="self"/>
   <link href="http://test0192837465.github.io/"/>
-  <updated>2014-03-13T22:05:16-05:00</updated>
+  <updated>2014-03-13T22:06:32-05:00</updated>
   <id>http://test0192837465.github.io/</id>
   <author>
     <name><![CDATA[Fred Jekyll]]></name>
@@ -35,7 +35,7 @@ $ rake generate
 $ rake deploy
 </code></p>
 
-<p>Then I updated source using</p>
+<p>Finally, I updated source using</p>
 
 <p><code>
 $ git add -A              # update all changes including removed files

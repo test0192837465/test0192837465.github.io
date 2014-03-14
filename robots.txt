@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://test0192837465.github.io/sitemap.xml 

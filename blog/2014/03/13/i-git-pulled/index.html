@@ -21,13 +21,12 @@ MathJax.Hub.Config({
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>This is just a test - procrastination nation</title>
+  <title>I git pulled - procrastination nation</title>
   <meta name="author" content="Fred Jekyll">
 
   
-  <meta name="description" content="% <![CDATA[ \begin{align}
-\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
-\mbox{Concatenation: } & A\circ B = \{xy\mid x\in A \mbox &hellip;">
+  <meta name="description" content="I used the instuctions at http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/
+to pull the source and master branches from GitHub &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -36,7 +35,7 @@ MathJax.Hub.Config({
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test">
+  <link rel="canonical" href="http://test0192837465.github.io/blog/2014/03/13/i-git-pulled">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="procrastination nation" type="application/atom+xml">
@@ -86,7 +85,7 @@ MathJax.Hub.Config({
   
   <header>
     
-      <h1 class="entry-title">This Is Just a Test</h1>
+      <h1 class="entry-title">I Git Pulled</h1>
     
     
       <p class="meta">
@@ -102,33 +101,43 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2014-03-13T18:35:10-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
+<time datetime="2014-03-13T21:20:56-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><script type="math/tex; mode=display">% <![CDATA[
+<div class="entry-content"><p>I used the instuctions at <code>http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/</code>
+to pull the source and master branches from GitHub:</p>
 
-\begin{align}
-\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
-\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
-\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
-\end{align}
- %]]></script>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Discover if a number is prime</span><a href="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/">Source Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
 <span class="line-number">3</span>
 <span class="line-number">4</span>
-<span class="line-number">5</span>
-</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="k">class</span> <span class="nc">Fixnum</span>
-</span><span class="line">  <span class="k">def</span> <span class="nf">prime?</span>
-</span><span class="line">    <span class="p">(</span><span class="s1">&#39;1&#39;</span> <span class="o">*</span> <span class="nb">self</span><span class="p">)</span> <span class="o">!~</span> <span class="sr">/^1?$|^(11+?)\1+$/</span>
-</span><span class="line">  <span class="k">end</span>
-</span><span class="line"><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ cd octopress
+</span><span class="line">$ git pull origin source  # update the local source branch
+</span><span class="line">$ cd ._/deploy
+</span><span class="line">$ git pull origin master  # update the local master branch</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Then I ran `rake new_post’ to create this post, after which I recreated the blog and pushed to master using</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ rake generate
+</span><span class="line">$ rake deploy</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Then I updated source using</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ git add -A              # update all changes including removed files
+</span><span class="line">$ git commit -m "commit message"
+</span><span class="line">$ git push origin source  # update the remote source branch"</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>As a reference, <code>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</code> has a nice cheatsheet for writing in Markdown.</p>
+
 </div>
 
 
@@ -137,7 +146,7 @@ MathJax.Hub.Config({
       
   
 
-<span class="byline author vcard">Posted by <span class="fn">Fred Jekyll</span></span>
+<span class="byline author vcard">Posted by <span class="fn">Mr. Hyde</span></span>
 
       
 
@@ -151,15 +160,21 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2014-03-13T18:35:10-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
+<time datetime="2014-03-13T21:20:56-05:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/github/'>github</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/rake/'>rake</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test/" data-via="" data-counturl="http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://test0192837465.github.io/blog/2014/03/13/i-git-pulled/" data-via="" data-counturl="http://test0192837465.github.io/blog/2014/03/13/i-git-pulled/" >Tweet</a>
   
   
   
@@ -168,10 +183,8 @@ MathJax.Hub.Config({
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works/" title="Previous Post: Let's make a new post: hopefully this works">&laquo; Let's make a new post: hopefully this works</a>
+        <a class="basic-alignment left" href="/blog/2014/03/13/another-test-by-kenny/" title="Previous Post: Another test by Kenny">&laquo; Another test by Kenny</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/13/another-test-by-kenny/" title="Next Post: Another test by Kenny">Another test by Kenny &raquo;</a>
       
     </p>
   </footer>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: github | procrastination nation]]></title>
+  <link href="http://test0192837465.github.io/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://test0192837465.github.io/"/>
+  <updated>2014-03-13T22:06:32-05:00</updated>
+  <id>http://test0192837465.github.io/</id>
+  <author>
+    <name><![CDATA[Fred Jekyll]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I git pulled]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/13/i-git-pulled/"/>
+    <updated>2014-03-13T21:20:56-05:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/13/i-git-pulled</id>
+    <content type="html"><![CDATA[<p>I used the instuctions at <code>http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/</code>
+to pull the source and master branches from GitHub:</p>
+
+<p><code>
+$ cd octopress
+$ git pull origin source  # update the local source branch
+$ cd ._/deploy
+$ git pull origin master  # update the local master branch
+</code></p>
+
+<p>Then I ran `rake new_post’ to create this post, after which I recreated the blog and pushed to master using</p>
+
+<p><code>
+$ rake generate
+$ rake deploy
+</code></p>
+
+<p>Finally, I updated source using</p>
+
+<p><code>
+$ git add -A              # update all changes including removed files
+$ git commit -m "commit message"
+$ git push origin source  # update the remote source branch"
+</code></p>
+
+<p>As a reference, <code>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</code> has a nice cheatsheet for writing in Markdown.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

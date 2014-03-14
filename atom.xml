@@ -1,153 +1,33 @@
-<!-- mathjax config similar to math.stackexchange -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
-  tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$']],
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-});
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>procrastination nation</title>
-  <meta name="author" content="Fred Jekyll">
-
-  
-  <meta name="description" content="
-">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://test0192837465.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="procrastination nation" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-  
-
-</head>
-
-<body   class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup>
-  <h1><a href="/">procrastination nation</a></h1>
-  
-    <h2>Nerds helping nerds waste time.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:test0192837465.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[procrastination nation]]></title>
+  <link href="http://test0192837465.github.io/atom.xml" rel="self"/>
+  <link href="http://test0192837465.github.io/"/>
+  <updated>2014-03-14T14:43:16-07:00</updated>
+  <id>http://test0192837465.github.io/</id>
+  <author>
+    <name><![CDATA[Fred Jekyll]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2014/03/14/attention-ravi-is-a-douchebag/">Attention! Ravi Is a Douchebag!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-03-14T13:31:25-07:00" pubdate data-updated="true">Mar 14<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
+  <entry>
+    <title type="html"><![CDATA[Attention! Ravi is a Douchebag!]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/14/attention-ravi-is-a-douchebag/"/>
+    <updated>2014-03-14T13:31:25-07:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/14/attention-ravi-is-a-douchebag</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/13/i-git-pulled/">I Git Pulled</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-13T19:20:56-07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I used the instuctions at <code>http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/</code>
+  <entry>
+    <title type="html"><![CDATA[I git pulled]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/13/i-git-pulled/"/>
+    <updated>2014-03-13T19:20:56-07:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/13/i-git-pulled</id>
+    <content type="html"><![CDATA[<p>I used the instuctions at <code>http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/</code>
 to pull the source and master branches from GitHub:</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
@@ -177,49 +57,22 @@ to pull the source and master branches from GitHub:</p>
 
 <p>As a reference, <code>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</code> has a nice cheatsheet for writing in Markdown.</p>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/13/this-is-just-a-test/">This Is Just a Test</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-13T16:35:10-07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><script type="math/tex; mode=display">% <![CDATA[
+  <entry>
+    <title type="html"><![CDATA[This is just a test]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test/"/>
+    <updated>2014-03-13T16:35:10-07:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/13/this-is-just-a-test</id>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">% &lt;![CDATA[
 
 \begin{align}
 \mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
 \mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
 \mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
 \end{align}
- %]]></script>
+ %]]&gt;</script>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Discover if a number is prime</span><a href="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/">Source Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
@@ -232,87 +85,33 @@ to pull the source and master branches from GitHub:</p>
 </span><span class="line">  <span class="k">end</span>
 </span><span class="line"><span class="k">end</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
-</div>
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[Let's make a new post: hopefully this works]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works/"/>
+    <updated>2014-03-05T13:34:23-07:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[title]]></title>
+    <link href="http://test0192837465.github.io/blog/2014/03/04/title/"/>
+    <updated>2014-03-04T20:00:20-07:00</updated>
+    <id>http://test0192837465.github.io/blog/2014/03/04/title</id>
+    <content type="html"><![CDATA[<p>blah blah blah</p>
 
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/05/lets-make-a-new-post-hopefully-this-works/">Let&#8217;s Make a New Post: Hopefully This Works</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-05T13:34:23-07:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/04/title/">Title</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-04T20:00:20-07:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>blah blah blah</p>
-
-<script type="math/tex; mode=display">% <![CDATA[
+<script type="math/tex; mode=display">% &lt;![CDATA[
 
 \begin{align}
 \mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
 \mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
 \mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
 \end{align}
- %]]></script>
+ %]]&gt;</script>
 
 <p>do inline equations like <script type="math/tex">\int_1^\infty \frac{1}{x^2} dx = 1</script> work?</p>
 
@@ -350,61 +149,7 @@ to pull the source and master branches from GitHub:</p>
   <li>item 2</li>
   <li>item 3</li>
 </ul>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Fred Jekyll -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
